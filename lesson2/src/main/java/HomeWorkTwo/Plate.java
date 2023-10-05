@@ -6,7 +6,7 @@ public class Plate {
         this.food = food;
     }
     public void info() {
-        System.out.println("В тарелке осталось " + food);
+        System.out.println("В тарелке " + food + " корма");
     }
 
     public int getFood() {
